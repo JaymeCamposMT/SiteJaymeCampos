@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jayme Campos - Senador</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+        }
+
+        header {
+            background: #001F54;
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: white;
+            margin-left: 1.5rem;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .hero {
+            background: url('https://upload.wikimedia.org/wikipedia/commons/4/42/Senador_Jayme_Campos.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 8rem 2rem;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 4px #000;
+        }
+
+        section {
+            padding: 4rem 2rem;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #001F54;
+            margin-bottom: 1.5rem;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .card {
+            flex: 1 1 calc(50% - 1rem);
+            background: #f1f1f1;
+            padding: 1rem;
+            border-radius: 8px;
+        }
+
+        footer {
+            background: #001F54;
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+            margin-top: 4rem;
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                flex: 1 1 100%;
+            }
+
+            nav {
+                margin-top: 1rem;
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Jayme Campos</h1>
+        <nav>
+            <a href="#quem-sou">Quem Sou</a>
+            <a href="#bandeiras">Bandeiras</a>
+            <a href="#vida-publica">Vida Pública</a>
+            <a href="#trabalho">Trabalho no Senado</a>
+            <a href="#investimento">Investimento</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>O Senador de Todos</h1>
+    </div>
+
+    <section id="quem-sou">
+        <h2>Quem Sou</h2>
+        <p>Jayme Veríssimo de Campos, 73 anos, natural do estado de Mato Grosso. Sou casado há 48 anos com Lucimar Sacre de Campos. Pai de quatro filhos e avô de seis netos. Atualmente, exerço o cargo de Senador da República, pelo 2º exercício, representando o nosso povo do estado de Mato Grosso.</p>
+    </section>
+
+    <section id="bandeiras">
+        <h2>Minhas Bandeiras</h2>
+        <div class="cards">
+            <div class="card"><strong>Desenvolvimento do estado de Mato Grosso</strong></div>
+            <div class="card"><strong>Defesa do Agronegócio</strong></div>
+            <div class="card"><strong>Responsabilidade fiscal e simplificação tributária</strong></div>
+            <div class="card"><strong>Educação, saúde e infraestrutura</strong></div>
+        </div>
+    </section>
+
+    <section id="vida-publica">
+        <h2>Vida Pública</h2>
+        <p>Entrei na política em 1980. Fui prefeito de Várzea Grande, deputado estadual, governador do Estado de Mato Grosso e Senador da República por duas vezes. Tenho orgulho da minha trajetória e do compromisso com o povo mato-grossense.</p>
+    </section>
+
+    <section id="trabalho">
+        <h2>O Trabalho no Senado</h2>
+        <p>Desde o início do meu 2º mandato como senador, pude contribuir com importantes projetos legislativos, emendas e propostas que ajudaram a transformar Mato Grosso. Foram mais de 55 projetos, 150 emendas e 60 relatórios em comissões.</p>
+    </section>
+
+    <section id="investimento">
+        <h2>Investimento no Estado</h2>
+        <p>Mais de R$ 1 bilhão em emendas para o estado de Mato Grosso, viabilizando obras e serviços essenciais para a população.</p>
+    </section>
+
+    <footer>
+        <p>Contato: sen.jaymecampos@senado.leg.br</p>
+        <p>Endereço: Avenida Castelo Branco, Várzea Grande - MT</p>
+    </footer>
+
+</body>
+</html>
