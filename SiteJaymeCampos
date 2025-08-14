@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jayme Campos - Senador por Mato Grosso</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo Jayme Campos" class="logo" />
+    <h1>Jayme Campos</h1>
+    <p>Senador por Mato Grosso</p>
+    <div class="redes-sociais">
+      <a href="https://www.instagram.com/jaymecamposmt" target="_blank">Instagram</a>
+      <a href="https://m.facebook.com/jayme.campos/" target="_blank">Facebook</a>
+      <a href="https://x.com/jaymecamposmt?s=21" target="_blank">X (Twitter)</a>
+      <a href="https://www.tiktok.com/@jaymecamposmt" target="_blank">TikTok</a>
+    </div>
+  </header>
+
+  <section class="destaque">
+    <h2>+ R$ 1 BILHÃO em emendas para Mato Grosso</h2>
+  </section>
+
+  <section class="mapa">
+    <h2>Mapa das Emendas</h2>
+    <ul>
+      <li><a href="https://goo.gl/maps/m6pUxu9oVZvLxbF1A" target="_blank">Mapa de emendas 2019–2023</a></li>
+      <li><a href="https://www.google.com/maps/d/edit?mid=1Tcog5P2i0hH9PCQ9U2bTEBkZiKy8Ex8&usp=sharing" target="_blank">Mapa de emendas 2024</a></li>
+    </ul>
+  </section>
+
+  <section class="noticias">
+    <h2>Notícias Recentes</h2>
+    <article>
+      <h3>10/07/2025 – Jayme Campos debate uso de IA para reduzir desigualdades em MT</h3>
+      <p>Uso de IA para combater desigualdades e distribuir melhor recursos é defendido por Jayme Campos. Projeto prevê supercomputador no Parque Tecnológico de Várzea Grande.</p>
+    </article>
+    <article>
+      <h3>17/07/2025 – Jayme Campos defende ‘coalizão’ contra tarifa de Trump</h3>
+      <p>Senador critica tarifa de 50% dos EUA e pede articulação internacional na OMC para defender o agro brasileiro.</p>
+    </article>
+    <article>
+      <h3>19/07/2025 – Projeto revela minerais nos produtos do dia a dia</h3>
+      <p>Jayme propõe selo de eficiência mineral, promovendo consumo consciente e indústria mais transparente.</p>
+    </article>
+    <article>
+      <h3>12/08/2025 – Jayme cobra plano do Governo contra ‘tarifaço’</h3>
+      <p>Senador cobra medidas emergenciais e aceleração de obras logísticas para compensar impacto das tarifas americanas.</p>
+    </article>
+    <article>
+      <h3>13/08/2025 – Riquezas minerais como trunfo estratégico</h3>
+      <p>Jayme defende uso de minerais críticos como instrumento diplomático e propõe política nacional para o setor.</p>
+    </article>
+  </section>
+
+  <section class="galeria">
+    <h2>Galeria de Fotos</h2>
+    <div class="fotos">
+      <img src="foto-historica-01.jpg" alt="Jayme Campos - História" />
+      <!-- Adicione mais imagens conforme o necessário -->
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Jayme Campos. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
