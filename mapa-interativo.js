@@ -1,1 +1,1 @@
-// Conteúdo simulado de mapa-interativo.js
+// Nenhum JS ainda
